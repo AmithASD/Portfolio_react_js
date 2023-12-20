@@ -1,5 +1,23 @@
-.main-outer{
-    background-color: black;
-    width: 100%;
+.contact-background-img{
+    background-image: url("../img/wallpaper.jpg");
+    width: 100vw;
     height:90vh;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    z-index:1;
+    display: inline-block;
+}
+
+@media screen and (max-width:1140px){
+    .background-img{
+        width: 100vw;
+        height:90vh;
+    }
+    
+}
+@media screen and (max-width:640px){
+    .background-img{
+        background-repeat: no-repeat;
+    }
+    
 }

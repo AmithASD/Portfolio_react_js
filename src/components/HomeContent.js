@@ -2,7 +2,7 @@ import React from 'react'
 import  "../assesst/css/homecontent.css";
 import { Link } from 'react-router-dom';
 
-const HomeImg = () => {
+const HomeContent = () => {
   return (
     <>
       <div className='content-outer'>
@@ -17,4 +17,4 @@ const HomeImg = () => {
   )
 }
 
-export default HomeImg
+export default HomeContent

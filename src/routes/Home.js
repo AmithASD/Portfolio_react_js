@@ -1,5 +1,5 @@
 import CollapsibleExample from "../components/Navbar";
-import HomeImg from "../components/HomeContent";
+import HomeContent from "../components/HomeContent";
 import Footer from "../components/Footer";
 import React from 'react'
 import "../assesst/css/home.css";
@@ -7,10 +7,10 @@ import "../assesst/css/home.css";
 const Home = () => {
   return (
     <div>
-      <CollapsibleExample/>
-      <div className='background-img'>
-        <HomeImg/>
-      </div>
+        <CollapsibleExample/>
+        <div className='home-background-img'>
+            <HomeContent/>
+        </div>
         <Footer/>
     </div>
   )

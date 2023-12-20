@@ -1,5 +1,5 @@
 
-.background-img{
+.home-background-img{
     background-image: url("../img/wallpaper.jpg");
     width: 100vw;
     height:90vh;
@@ -9,7 +9,7 @@
     display: inline-block;
 }
 
-@media screen and (max-width:1040px){
+@media screen and (max-width:1140px){
     .background-img{
         width: 100vw;
         height:90vh;
