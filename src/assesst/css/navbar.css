@@ -1,0 +1,22 @@
+.nav-outer{
+    background-color:black  !important;
+    background:none;
+    z-index: 1;
+}
+.right-outer{
+    margin-left: 55vw;
+    
+}
+.link-page{
+    font-size: 20px;
+}
+.link-page a{
+    font-size: 20px;
+    color: #fffdfd;
+    margin: 0 5px;
+}
+.link-page a:hover{
+    font-size: 20px;
+    color: #fffdfd;
+    margin: 0 5px;
+}
