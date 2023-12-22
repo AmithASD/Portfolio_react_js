@@ -3,62 +3,294 @@
     height: auto;
     z-index: 1;
     background: none;
-    padding-top: 45vh;
-}
-.heading{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background: none;
-}
-.heading p,h1{
-    color:rgb(244, 24, 24) ;
-    background: none;
+    padding-top: 60vh;
 }
 .about{
     width: 100%;
-    margin: 3rem 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
     height: 100%;
+    border: 1px solid white;
 }
-.about .left{
+.about-left{
     text-align: center;
     margin: auto;
     padding: 1rem;
+    padding-top: 30%;
     max-width:350px ;
-}
-.about .left p{
-    margin: 1.2rem 0;
-}
-.about .right {
-    max-width: 700px;
-}
-.right .img-container{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
-    align-items: center;
-    text-align: center;
-}
-.right .img{
-    max-width: 90%;
+    height: 100%;
     border: 1px solid white;
 }
-.right .top{
-    grid-column: 1 / span 8;
-    grid-row:1 ;
-    padding-top: 20%;
-    z-index: 6;
+.about-midle{
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    width:600px ;
+    height: 100%;
+    border: 1px solid white;
 }
-.right .bottom{
-    grid-column: 4 / -1;
-    grid-row:1 ;
-    z-index: 5;
+.about-right {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+    width:500px ;
+    height: 100%;
+    border: 1px solid white;
+}
+.about-left p{
+    margin: 1.2rem 0;
+}
+.about-left h2{
+    color: white;
 }
 
+img{
+    width:300px;
+    height: 100%;
+}
+.contact-btn{
+    margin-left: -50px;
+}
+/* ---------------- */
+/* section {
+    padding: 100px 0;
+  }
+  
+  .about,
+  .projects {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(37, 0, 0);
+  }
+  
+  .about .title1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: crimson;
+    margin-bottom: 40px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  .about .about-content {
+    display: flex;
+    color: aliceblue;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .about .about-content .left {
+    width: 40%;
+  }
+  
+  .about .about-content .left img {
+    height: 400px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 60px;
+  }
+  
+  .about .about-content .right {
+    width: 53%;
+  }
+  
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .about .about-content .right span {
+    color: crimson;
+  }
+  
+  .about .about-content .right p {
+    text-align: justify;
+  }
+  
+  .about .about-content .right a {
+    display: inline-block;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 30px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid red;
+    transition: all 0.3s ease;
+  }
+  
+  .about .about-content .right a:hover {
+    color: crimson;
+    background: none;
+  }
+  
+  #about {
+    padding: 80px 0;
+    color: rgb(189, 189, 189);
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .about-col-1 {
+    flex-basis: 35%;
+  }
+  
+  .about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .about-col-2 {
+    flex-basis: 60%;
+  }
+  
+  .tab-titles {
+    display: flex;
+    margin: 20px 0 40px;
+  }
+  
+  .tab-links {
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: rgb(255, 0, 0);
+  }
+  
+  .tab-links::after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #ff2525;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+  }
+  
+  .tab-links.active-link::after {
+    width: 50%;
+  }
+  
+  .tab-contents ul li {
+    list-style: none;
+    margin: 10px 0;
+    color: beige;
+  }
+  
+  .tab-contents ul li span {
+    color: crimson;
+    font-size: 20px;
+  }
+  
+  .tab-contents {
+    display: none;
+  }
+  
+  .tab-contents.active-tab {
+    display: block;
+  }
+  
+  
+  @media (max-width: 690px) {
+    max-width {
+      padding: 0 23px;
+    }
+  
+    .home .home-content .text-2 {
+      font-size: 60px;
+    }
+  
+    .home .home-content .text-3 {
+      font-size: 32px;
+    }
+  
+    .home .home-content a {
+      font-size: 20px;
+      padding: 9px 25px;
+    }
+  
+    .tab-links {
+      font-size: 18px;
+    }
+  
+    .tab-contents ul li {
+      font-size: 14px;
+    }
+  
+    .tab-contents ul li span {
+      font-size: 16px;
+    }
+  
+    .about .title {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 500;
+      color: aliceblue;
+      margin-bottom: -20px;
+      padding-bottom: 20px;
+      font-family: "Ubuntu", sans-serif;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .home .home-content .text-2 {
+      font-size: 50px;
+    }
+  
+    .home .home-content .text-3 {
+      font-size: 27px;
+    }
+  
+    .about .title {
+      text-align: center;
+      font-size: 40px;
+      font-weight: 500;
+      color: aliceblue;
+      margin-bottom: 60px;
+      padding-bottom: 20px;
+      font-family: "Ubuntu", sans-serif;
+      margin-bottom: -20px;
+    }
+  
+    .about .about-content .left img {
+      height: 400px;
+      width: 350px;
+      object-fit: contain;
+      border-radius: 6px;
+      justify-content: center;
+    }
+  } */
+
+  /* media query */
+@media screen and (width:980px){
+    .project-content-outer{ 
+        display: flex;
+        flex-direction: row;
+     }
+    .about{
+        display: grid;
+        height: auto;
+       flex-direction: column;
+       grid-template-columns: 1fr;
+    }
+}
+@media screen and (max-width:740px){
+    .project-content-outer{ 
+        display: flex;
+        flex-direction: row;
+     }
+    .about{
+        display: grid;
+        height: auto;
+       flex-direction: column;
+       grid-template-columns: 1fr;
+    }
+}

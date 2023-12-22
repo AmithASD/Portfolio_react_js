@@ -3,14 +3,16 @@ import Footer from "../components/Footer";
 import AboutContent from "../components/AboutContent";
 import '../assesst/css/about.css';
 import React from 'react';
+import AboutWallcontent from "../components/AboutWallcontent";
 
 const About = () => {
   return (
     <div>
         <CollapsibleExample/>
         <div className='about-background-img'>
-          <AboutContent/>
+          <AboutWallcontent/>
         </div> 
+          <AboutContent/>
         <Footer/>
     </div>
   )

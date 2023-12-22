@@ -1,5 +1,5 @@
 .project-background-img{
-    background-image: url("../img/projectWall.jpg");
+    background-image: url("../img/ProWalljpg.jpg");
     width: 100vw;
     height:90vh;
     background-repeat: no-repeat;
@@ -8,15 +8,15 @@
     display: inline-block;
 }
 
-@media screen and (max-width:1040px){
-    .project-background-img{
+@media screen and (max-width:1140px){
+    .background-img{
         width: 100vw;
         height:90vh;
     }
     
 }
-@media screen and (max-width:640px){
-    .project-background-img{
+@media screen and (max-width:740px){
+    .background-img{
         background-repeat: no-repeat;
     }
     

@@ -14,7 +14,7 @@ const Form = () => {
                 <input type='text'></input>
                 <lable>Message</lable>
                 <textarea rows="6" placeholder='Type yor message here'></textarea>
-                <button className='btn btn-dark'> Submit</button>
+                <button className='btn btn-dark submit-btn'> Submit</button>
             </form>
         </div>
     </div>

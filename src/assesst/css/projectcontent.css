@@ -1,11 +1,12 @@
 .project-content-outer{
-    width: 100vw;
+   max-width: 1140px;
     height: auto;
     z-index: 1;
     background: none;
 }
 .project-content-outer{
-    padding-top: 45vh;
+    padding-top: 65vh;
+    margin-left: -250px;
 }
 .heading{
     width: 100%;
@@ -16,8 +17,54 @@
     flex-direction: column;
     background: none;
     margin-top: -250px;
+    margin-bottom: auto;
 }
-.heading p,h1{
-    color:rgb(244, 24, 24) ;
+.top-text-project{
+    color:rgb(245, 244, 249) ;
+    font-size: 80px;
+}
+.bottom-text-project{
+    color:rgb(240, 249, 242) ;
     background: none;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 95px;
+}
+  /* media query */
+  @media screen and (width:980px){
+    .project-content-outer{
+        font-size: 20px;
+        margin-top: -200px;
+        margin-left: 200px;
+    }
+    .top-text-project{
+        color: rgb(250, 249, 249);
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .bottom-text-project{
+        font-size: 35px;
+        font-weight: 800;
+        color: rgb(250, 249, 249) ;
+    
+    }
+}
+@media screen and (max-width:740px){
+    .project-content-outer{ 
+        font-size: 20px;
+        margin-top: -300px;
+        width: 100%;
+        margin-left:90px;
+    }
+    .top-text-project{
+        color: rgb(250, 249, 249);
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .bottom-text-project{
+        font-size: 35px;
+        font-weight: 800;
+        color: rgb(250, 249, 249);
+    
+    }
 }

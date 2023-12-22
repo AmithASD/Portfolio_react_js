@@ -6,8 +6,8 @@ const ProjectContent = () => {
     <>
         <div className='project-content-outer'>
              <div className='heading'>
-                <h1>PROJECTS</h1>
-                <p>Some of my most recent works</p>
+                <h1 className='top-text-project'>PROJECTS</h1>
+                <h5 className='bottom-text-project'>Some of my most recent works</h5>
              </div>
         </div>
     </>
