@@ -1,4 +1,4 @@
-.pricing{
+ .pricing{
     width: 100%;
     padding: 6rem 1rem;
     background:none;
@@ -42,6 +42,9 @@
     font-size: 3rem;
     font-weight:600 ;
     padding: 1rem 0;
+}
+.price{
+    margin-left: 0px;
 }
 
 @media screen and (max-width:740px) {

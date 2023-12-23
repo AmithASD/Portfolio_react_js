@@ -7,7 +7,7 @@ const Work = () => {
   return (
     <>
         <div className="work-container">
-            <h1 className="project-headding">Projects</h1>
+            <h1 className="project-headding" style={{color:'white'}}>Projects</h1>
             <div className="project-container">
                 {WorkCardData.map((val,index)=>{
                     return(

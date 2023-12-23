@@ -1,3 +1,6 @@
+.work-container{
+    width: 100%;
+}
 .project-headding{
     text-align: center;
     padding: 4rem 0 2rem 0;
@@ -14,10 +17,17 @@
     background-color: black;
     width: 450px;
     margin-left: 25px;
+    border-radius: 5px;
+}
+.project-card:hover{
+    background-color: black;
+    width: 450px;
+    margin-left: 25px;
     border: 1px solid white;
+    border-radius: 5px;
 }
 .project-card img{
-    width: 450px;
+    width:100%;
     height: 450px;
 }
 .project-title{
@@ -32,8 +42,15 @@
 .pro-btns{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
-
+.source{
+    width: auto;
+    margin-left: -20px;
+}
+.email a{
+    color: aliceblue;
+}
 @media screen and (max-width:740px) {
     .project-container{
         max-width: 90%;

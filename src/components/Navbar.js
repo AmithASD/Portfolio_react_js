@@ -10,7 +10,7 @@ function CollapsibleExample() {
     <div>
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-outer">
             <Container>
-                <Navbar.Brand href="/" style={{fontSize:"30px" , color:"white"} }>Portfolio</Navbar.Brand>
+                <Navbar.Brand href="/" style={{fontSize:"30px" , color:"white"} }>Portfolio | Amith <span style={{color:'yellow'}} >SD</span></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <div className='right-outer'>

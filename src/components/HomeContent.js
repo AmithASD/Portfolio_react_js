@@ -11,7 +11,7 @@ const HomeContent = () => {
       </div>
       <div className='btn-outer'>
         <Link to="/projects" className='btn btn-dark'> PROJECTS</Link>
-        <Link to="/contact" className='btn btn-light'> CONTACT</Link>
+        <Link to="/contact-us" className='btn btn-light'> CONTACT</Link>
       </div>
     </>
   )
