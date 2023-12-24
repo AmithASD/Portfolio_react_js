@@ -1,5 +1,5 @@
 .about-content-outer{
-    width: 100vw;
+    width: 1005;
     height: auto;
     z-index: 1;
     background: none;
@@ -26,3 +26,26 @@
     margin-top: 10px;
     margin-left: 95px;
  }
+ 
+  /* media query */
+@media screen and (width:980px){
+   .about-content-outer{
+       font-size: 20px;
+   }
+}
+@media screen and (max-width:768px){
+   .about-content-outer{ 
+       font-size: 20px;
+       width: 100%;
+   }
+   h1{
+       color: rgb(250, 249, 249);
+       font-size: 30px;
+       font-weight: 800;
+   }
+   h5{
+       color: rgba(249, 244, 244, 0.989);
+       font-size: 35px;
+       font-weight: 800;
+   }
+}

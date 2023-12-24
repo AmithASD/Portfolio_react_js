@@ -7,17 +7,15 @@
     z-index:1;
     display: inline-block;
 }
-
 @media screen and (max-width:1140px){
     .background-img{
         width: 100vw;
         height:90vh;
     }
-    
 }
-@media screen and (max-width:740px){
+@media screen and (max-width:768px){
     .background-img{
         background-repeat: no-repeat;
+        width: 100%;
     }
-    
 }

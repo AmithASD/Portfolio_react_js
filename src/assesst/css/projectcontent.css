@@ -49,12 +49,11 @@
     
     }
 }
-@media screen and (max-width:740px){
+@media screen and (max-width:768px){
     .project-content-outer{ 
         font-size: 20px;
-        margin-top: -300px;
         width: 100%;
-        margin-left:90px;
+        margin-left:15px;
     }
     .top-text-project{
         color: rgb(250, 249, 249);

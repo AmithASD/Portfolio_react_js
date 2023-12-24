@@ -85,7 +85,7 @@ img{
    margin-left: 120px;
     }
 }
-@media screen and (max-width:740px){
+@media screen and (max-width:768px){
     .project-content-outer{ 
         display: flex;
         flex-direction: row;
@@ -97,6 +97,9 @@ img{
        grid-template-columns: 1fr;
     }
     .about-right{
-      margin-left: -10px;
+      margin-left: 200px;
+    }
+    .about-midle{
+      margin-left: 100px;
     }
 }

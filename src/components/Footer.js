@@ -9,11 +9,13 @@ const footer = () => {
             <div className='left'>
                 <div className='lacation'>
                     <div>
-                    
                         <p><FaHome size={20} style={{color:"#fff", marginRight:"2rem" , marginRight:"2rem"}}/>No 44, Bogaha Ella, 05th Mile post,Veheragoda </p><p style={{paddingLeft:'50px'}}>Badalkumbura</p>
                     </div>
                     <div className='phone'>
                         <p><FaPhone size={20} style={{color:"#fff", marginRight:"2rem" , marginRight:"2rem"}}/>+94 760158715</p>
+                    </div>
+                    <div className='phone'>
+                        <p><FaPhone size={20} style={{color:"#fff", marginRight:"2rem" , marginRight:"2rem"}}/>+94 781 517 352 (Home)</p>
                     </div>
                     <div className='email'>
                         <p><FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem" , marginRight:"2rem"}}/>amithsandaruwan98@gmail.com</p>

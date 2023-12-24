@@ -15,9 +15,10 @@
     }
     
 }
-@media screen and (max-width:640px){
+@media screen and (max-width:768px){
     .background-img{
         background-repeat: no-repeat;
+        width: 100%;
     }
     
 }
