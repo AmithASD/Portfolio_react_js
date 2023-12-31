@@ -44,7 +44,6 @@
     background: #e4e4e0fc;
     margin-left: 60px;
     font-size: 20px;
-
   }
   .btn-dark{
     background:transparent ;
@@ -54,15 +53,14 @@
   }
 
   /* media query */
-@media screen and (width:980px){
+@media screen and (max-width:1140px){
     .content-outer, .btn-outer{
         font-size: 20px;
-        margin-top: -200px;
     }
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px) and (max-width:1139px){
     .content-outer{ 
-        font-size: 20px;
+        font-size: 10px;
         width: 100%;
     }
     .btn-outer{
@@ -80,6 +78,35 @@
     h5{
         color: rgba(249, 244, 244, 0.989);
         font-size: 35px;
+        font-weight: 800;
+    
+    }
+}
+@media screen and (max-width:767px){
+    .content-outer{ 
+        font-size: 10px;
+        width: 100%;
+    }
+    .btn-outer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+    .btn-light{
+        margin-left: 100px;
+        margin-top: 10px;
+      }
+    .content-outer h1{
+        color: rgb(250, 249, 249);
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .content-outer h5{
+        color: rgba(249, 244, 244, 0.989);
+        font-size: 15px;
         font-weight: 800;
     
     }

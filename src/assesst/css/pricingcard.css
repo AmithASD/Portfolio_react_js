@@ -1,23 +1,22 @@
  .pricing{
     width: 100%;
-    padding: 6rem 1rem;
+    padding: 2rem 1rem;
     background:none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .card-container{
-    max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
+    width: 330px;
 }
 .card{
     text-align: center;
-    padding: 2px;
-    width: 300px;
-    margin-left: 100px;
+    width: 250px;
+    margin-left: 10px;
     background-color: rgb(100, 98, 98);
     border: 1px solid white;
 
@@ -47,7 +46,7 @@
     margin-left: 0px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .card-container{
         max-width: 90%;
         margin-top: 15px;
@@ -63,5 +62,31 @@
         display: flex;
         flex-direction: column;
         grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1139px) {
+    .card-container{
+        max-width: 90%;
+        margin-top: 15px;
+        grid-template-columns: 1fr;
+       
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+    .pricing{
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width:1140px) {
+    .card-container{
+        width: 100%; 
+    }
+    .pricing{
+       width: 100%; 
     }
 }

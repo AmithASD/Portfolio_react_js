@@ -6,22 +6,19 @@
     padding: 4rem 0 2rem 0;
 }
 .project-container{
-    max-width: 100%;
+    width: 100%;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
     padding-bottom: 3rem;
 }
 .project-card{
     background-color: black;
-    width: 450px;
-    margin-left: 25px;
-    border-radius: 5px;
+    margin-left: 5px;
+    width: 330px !important;
 }
 .project-card:hover{
     background-color: black;
-    width: 450px;
     margin-left: 25px;
     border: 1px solid white;
     border-radius: 5px;
@@ -51,11 +48,34 @@
 .email a{
     color: aliceblue;
 }
-@media screen and (max-width:768px) {
+ @media screen and (max-width:767px) {
     .project-container{
-        width: 90%;
-        margin: auto;
-        grid-template-columns: 1fr;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .project-card{
+        width: 100%;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1139px) {
+    .project-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .project-card{
+        width: 100%;
+    }
+} 
+@media screen and (min-width:1140px) {
+    .project-container{
+        width: 100%;
+    }
+    .work-container{
+        width: 100%;
     }
     .project-card{
         width: 100%;

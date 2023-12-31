@@ -25,7 +25,43 @@
     font-size: 40px; 
     margin-left: 250px;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
+    .contact-content-outer{
+        width: 100%;
+    }
+    .contact-heading{
+        width: 100%;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .contact-heading p{
+        font-size: 15px;
+    }
+    .contact-heading h1{
+        font-size: 30px;
+    }
+    .contact-text{
+        margin-left: 30px;
+    }
+    
+}
+@media screen and (min-width:1140px){
+    .contact-content-outer{
+        width: 100%;
+    }
+    .contact-heading p{
+        font-size: 30px;
+    }
+    .contact-heading h1{
+        font-size: 45px;
+    }
+    .contact-text{
+        margin-left: -20px;
+    }
+    
+}
+@media screen and (min-width:767px) and (max-width:1139px){
     .contact-content-outer{
         width: 100%;
     }

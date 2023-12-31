@@ -43,9 +43,32 @@ p{
     font-size: 1.2rem;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     .footer-container{
         grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .left{
+        width: 100%;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1139px) {
+    .footer-container{
+        width: 100%;
+       padding-left: 150px;
+    }
+    .footer{
+        width: 100%;
+    }
+}
+@media screen and (min-width:1140px) {
+    .footer{
+        width: 100%;
+    }
+    .footer-container{
         width: 100%;
        padding-left: 150px;
     }

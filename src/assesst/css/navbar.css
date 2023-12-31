@@ -5,7 +5,6 @@
 }
 .right-outer{
     margin-left: 45vw;
-    
 }
 .link-page{
     font-size: 20px;
@@ -23,4 +22,17 @@
 .togs{
     background-color: #fffdfd;
     border: 1px solid white;
+}
+@media screen and (min-width:1140px) {
+    .right-outer{
+        margin-left: 35vw;
+    }
+}
+@media screen and (max-width:767px) {
+    p,h1{
+        font-size: 15px;
+    }
+}
+.link-page a{
+    font-size: 12px;
 }
