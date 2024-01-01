@@ -1,9 +1,8 @@
-.about-content-outer{
+.about-text-content-outer{
     width: 100vw;
     height: auto;
     z-index: 1;
     background: none;
-    padding-top: 60vh;
 }
 .about{
     width: 100%;
@@ -86,9 +85,10 @@ img{
     }
 }
 @media screen and (max-width:767px){
-    .about-content-outer{ 
+    .about-text-content-outer{ 
         display: flex;
         flex-direction: row;
+        margin-top: -100px;
      }
     .about{
         display: grid;

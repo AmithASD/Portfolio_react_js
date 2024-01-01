@@ -11,8 +11,8 @@ function CollapsibleExample() {
         <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary nav-outer">
             <Container>
                 <Navbar.Brand href="/" style={{fontSize:"15px" , color:"white",paddingLeft:"30px"} }>Portfolio | Amith <span style={{color:'yellow'}} >SD</span></Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav togs" />
-                <Navbar.Collapse id="responsive-navbar-nav">
+                <Navbar.Toggle aria-controls="responsive-navbar-nav togs " />
+                <Navbar.Collapse id="responsive-navbar-nav tog-border">
                     <div className='right-outer'>
                         <Nav className='link-page'>
                             <Nav.Link href="/">Home</Nav.Link>

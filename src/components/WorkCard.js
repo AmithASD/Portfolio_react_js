@@ -1,12 +1,10 @@
 import "../assesst/css/workcard.css";
 import React from 'react'
-import { NavLink } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 const WorkCard = (props) => {
   return (
     <>
-        <div className="work-container">
             <div className="project-container">
                 <div className="project-card">
                     <img src={props.imgsrc} alt="image" />
@@ -19,7 +17,6 @@ const WorkCard = (props) => {
                     </div>
                 </div>
             </div>
-        </div>
     </>
   )
 }

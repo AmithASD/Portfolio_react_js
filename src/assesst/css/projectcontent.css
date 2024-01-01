@@ -1,5 +1,5 @@
 .project-content-outer{
-   max-width: 1140px;
+    max-width: 1140px;
     height: auto;
     z-index: 1;
     background: none;
@@ -78,13 +78,16 @@
     }
     .top-text-project{
         color: rgb(250, 249, 249);
-        font-size: 25px;
+        font-size: 35px;
         font-weight: 800;
         background: none;
     }
     .bottom-text-project{
-        font-size: 15px;
+        font-size: 25px;
         font-weight: 800;
         color: rgb(250, 249, 249) ;
+    }
+    .heading{
+        padding-top: 50px;
     }
 }

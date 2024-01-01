@@ -7,7 +7,7 @@ import Pdf from "../assesst/files/Amith(CV) SE_WEB.pdf";
 const AboutContent = () => {
   return (
     <>
-        <div className='about-content-outer'>
+        <div className='about-text-content-outer'>
             <div className='about'>
                 <div className='about-left'>
                   <h2 >Who Am I?</h2>
