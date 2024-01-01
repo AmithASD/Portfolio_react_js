@@ -88,7 +88,8 @@ img{
     .about-text-content-outer{ 
         display: flex;
         flex-direction: row;
-        margin-top: -100px;
+        margin-top: -350px;
+        margin-bottom: 300px;
      }
     .about{
         display: grid;
@@ -97,7 +98,9 @@ img{
        grid-template-columns: 1fr;
     }
     .about-right{
-        width: 100%;    }
+        width: 100%;
+        padding-top: 0;
+        }
     .about-midle{
         width: 100%; 
         margin-top: 10px; 

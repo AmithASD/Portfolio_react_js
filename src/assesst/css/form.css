@@ -18,8 +18,23 @@ form input, form textarea{
 }
 .submit-btn{
     margin-left: -5px;
+    background-color: yellow;
+    color: black;
 }
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
+    .form{
+        width: 100%;
+        margin-top: -250px;
+        margin-bottom: 250px;
+    }
+}
+@media screen and (min-width:767px) and (max-width:1139px){
+    .form{
+        width: 100%;
+        margin-top: -200px;
+    }
+}
+@media screen  and (min-width:1140px){
     .form{
         width: 100%;
     }

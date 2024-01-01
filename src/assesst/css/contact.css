@@ -8,14 +8,21 @@
     display: flex;
 }
 
-@media screen and (max-width:1140px){
+@media screen and (min-width:1140px){
     .background-img{
         width: 100vw;
         height:90vh;
     }
     
 }
-@media screen and (max-width:768px){
+@media screen and (min-width:767px) and (max-width:1139px){
+    .background-img{
+        background-repeat: no-repeat;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:767px){
     .background-img{
         background-repeat: no-repeat;
         width: 100%;

@@ -10,8 +10,8 @@ const HomeContent = () => {
         <h1>Software Engineer.</h1>
       </div>
       <div className='btn-outer'>
-        <Link to="/projects" className='btn btn-dark'> PROJECTS</Link>
-        <Link to="/contact-us" className='btn btn-light'> CONTACT</Link>
+        <Link to="/projects" className='btn btn-dark-pro'> PROJECTS</Link>
+        <Link to="/contact-us" className='btn btn-light-con'> CONTACT</Link>
       </div>
     </>
   )

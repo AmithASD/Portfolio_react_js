@@ -6,7 +6,7 @@ import React from 'react'
 const Work = () => {
   return (
     <>
-        <div className="work-container">
+        <div className="work-container-outer">
             <h1 className="project-headding" style={{color:'white'}}>Projects</h1>
             <div className="project-container">
                 {WorkCardData.map((val,index)=>{

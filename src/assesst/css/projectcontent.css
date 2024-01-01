@@ -75,6 +75,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-left: 100px;
     }
     .top-text-project{
         color: rgb(250, 249, 249);
@@ -89,5 +90,7 @@
     }
     .heading{
         padding-top: 50px;
+        margin-left: 60px;
+        
     }
 }
