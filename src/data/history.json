@@ -1,0 +1,16 @@
+[
+  {
+    "role": "Associate Software Engineer",
+    "organisation": "Susila Life (Pvt) Ltd",
+    "startDate": "Mar, 2024",
+    "endDate": "Sep, 2024",
+    "experiences": ["Contribute to the development of new features for the SL Flicks app, and admin panel", "Reduced load times by 50%"]
+  },
+  {
+    "role": "Software Engineer - Intern",
+    "organisation": "Portion (Pvt) Ltd",
+    "startDate": "Aug, 2023",
+    "endDate": "Feb, 2024",
+    "experiences": ["Rectified bugs and enhanced functionality for the Love Birds, Work Tracker Site, and S&D System using React JS and Laminas. ", "Improving overall performance and user experience."]
+  }
+]

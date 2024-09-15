@@ -1,0 +1,74 @@
+[
+  {
+    "title": "Tech Mentors",
+    "imageSrc": "projects/tech_Monitor.jpg",
+    "description": "The website provides access for users to enroll in various educational programs(Ex: Web Development, Software Development).",
+    "skills": ["HTML", "CSS", "JavaScript", "MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD/Tech_Monitor"
+  },
+  {
+    "title": "Movie Site",
+    "imageSrc": "projects/movie.jpg",
+    "description": "This site lets users search for and find movies they need, providing a convenient way to access desired films or information about them.",
+    "skills": ["React", "Node", "Firebase"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD/Moovie-Site"
+  },
+  {
+    "title": "Designer Site",
+    "imageSrc": "projects/Designer.jpg",
+    "description": "This website enables users to create logos, flyers, business cards, T-shirts, and web designs, offering various tools for graphic and digital design projects.",
+    "skills": ["React", "Node", "MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD/Design-Services"
+  },
+  {
+    "title": "S & D Chemicals",
+    "imageSrc": "projects/Crud.jpg",
+    "description": "Displays details about staff members, company machines, and products, giving users access to comprehensive information about the organization's equipment.",
+    "skills": ["php", "Laminas", "MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD"
+  },
+  {
+    "title": "Landing Site",
+    "imageSrc": "projects/front.jpg",
+    "description": "This site provides users with information on all sales and service facilities related to the construction industry, offering insights into available resources and services.",
+    "skills": ["HTML", "JavaScript", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD/front-end-dev-project"
+  },
+  {
+    "title": "E Commerce Website",
+    "imageSrc": "projects/E-commercee.jpg",
+    "description": "This website allows users to purchase clothing, including men's and women's apparel, offering a variety of fashion options. ",
+    "skills": ["HTML","CSS", "PHP", "MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD"
+  },
+  {
+    "title": "Online Watch Site",
+    "imageSrc": "projects/watch.jpg",
+    "description": "This website allows users to purchase watches, including men's and women's styles, offering a selection tailored to different preferences.",
+    "skills": ["HTML", "JavaScript", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD/Online-Watch-shop"
+  },
+  {
+    "title": "SL Flicks OTT Platform",
+    "imageSrc": "projects/susila.jpg",
+    "description": "This platform allows users to find and watch movies, TV dramas, and other videos, providing a wide range of entertainment options.",
+    "skills": ["React JS","Node JS", "Firebase", "Flutter"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD"
+  },
+  {
+    "title": "Gym Site",
+    "imageSrc": "projects/Gym1.jpg",
+    "description": "The website lets users book appointments and access information about exercises, providing tools for scheduling and fitness education and details about trainers and hiring a trainer can also be done through this",
+    "skills": ["HTML", "JavaScript", "CSS"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/AmithASD/Gym"
+  }
+]
