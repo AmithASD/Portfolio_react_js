@@ -11,15 +11,23 @@
     "title": "Movie Site",
     "imageSrc": "projects/movie.jpg",
     "description": "This site lets users search for and find movies they need, providing a convenient way to access desired films or information about them.",
-    "skills": ["React", "Node", "Firebase"],
+    "skills": ["React JS", "Node JS", "Firebase"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/AmithASD/Moovie-Site"
+    "source": "https://github.com/AmithASD"
+  },
+  {
+    "title": "Read Lanka",
+    "imageSrc": "projects/readlanka.jpg",
+    "description": " An online book reading and listening website, Allows users to access books digitally",
+    "skills": ["React JS", "Node JS", "Firebase"],
+    "demo": "https://www.readlanka.com",
+    "source": "https://github.com/AmithASD"
   },
   {
     "title": "Designer Site",
     "imageSrc": "projects/Designer.jpg",
     "description": "This website enables users to create logos, flyers, business cards, T-shirts, and web designs, offering various tools for graphic and digital design projects.",
-    "skills": ["React", "Node", "MySQL"],
+    "skills": ["HTML", "JavaScript", "CSS"],
     "demo": "https://www.example.com",
     "source": "https://github.com/AmithASD/Design-Services"
   },
@@ -35,7 +43,7 @@
     "title": "Landing Site",
     "imageSrc": "projects/front.jpg",
     "description": "This site provides users with information on all sales and service facilities related to the construction industry, offering insights into available resources and services.",
-    "skills": ["HTML", "JavaScript", "CSS"],
+    "skills": ["React JS"],
     "demo": "https://www.example.com",
     "source": "https://github.com/AmithASD/front-end-dev-project"
   },

@@ -20,12 +20,20 @@
     "imageSrc": "skills/Bootstrap.png"
   },
   {
-    "title": "React",
+    "title": "React JS",
     "imageSrc": "skills/react.png"
   },
   {
-    "title": "Node",
+    "title": "Node JS",
     "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Express JS",
+    "imageSrc": "skills/express.jpeg"
+  },
+  {
+    "title": "Laravel",
+    "imageSrc": "skills/laravel.png"
   },
   {
     "title": "MySQL",
@@ -36,8 +44,8 @@
     "imageSrc": "skills/irebase.png"
   },
   {
-    "title": "Laravel",
-    "imageSrc": "skills/laravel.png"
+    "title": "MongoDB",
+    "imageSrc": "skills/mongos.jpeg"
   },
   {
     "title": "Docker",
