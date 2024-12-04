@@ -35,3 +35,13 @@ export const ProjectCard = ({
     </div>
   );
 };
+
+
+// {
+//   "title": "Gym Site",
+//   "imageSrc": "projects/Gym1.jpg",
+//   "description": "The website lets users book appointments and access information about exercises, providing tools for scheduling and fitness education and details about trainers and hiring a trainer can also be done through this",
+//   "skills": ["HTML", "JavaScript", "CSS"],
+//   "demo": "https://www.example.com",
+//   "source": "https://github.com/AmithASD/Gym"
+// }

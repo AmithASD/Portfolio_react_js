@@ -72,11 +72,11 @@
     "source": "https://github.com/AmithASD"
   },
   {
-    "title": "Gym Site",
-    "imageSrc": "projects/Gym1.jpg",
-    "description": "The website lets users book appointments and access information about exercises, providing tools for scheduling and fitness education and details about trainers and hiring a trainer can also be done through this",
-    "skills": ["HTML", "JavaScript", "CSS"],
+    "title": "Floor Management System",
+    "imageSrc": "projects/floorManagmnet.jpg",
+    "description": "This project is a dynamic floor management system using React,Redux, and Draggable components. Users can add, drag, update, and delete tables within rooms, with positions and details managed via Redux state and stored locally for persistence. The system supports real-time updates and modal-based table customization",
+    "skills": ["React JS", "Redux", "MongoDB"],
     "demo": "https://www.example.com",
-    "source": "https://github.com/AmithASD/Gym"
+    "source": "https://github.com/AmithASD"
   }
 ]

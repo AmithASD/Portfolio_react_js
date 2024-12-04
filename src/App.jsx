@@ -6,6 +6,7 @@ import {Hero} from "./components/Hero/Hero";
 import {Navbar} from "./components/Navbar/Navbar";
 import {Projects} from "./components/Projects/Projects";
 import  {Footer} from "./components/Footer/Footer.jsx"
+import { Education } from "./components/education/Education.jsx";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Navbar/>
             <Hero/>
             <About/>
+            <Education/>
             <Experience/>
             <Projects/>
             <Contact/>
