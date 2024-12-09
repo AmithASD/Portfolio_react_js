@@ -5,9 +5,25 @@ This is a personal portfolio website designed to showcase my projects, allow use
 ## Project Overview
 The portfolio is a single-page application where visitors can:
 
-View my latest projects with detailed descriptions and visuals.
+- View my latest projects with detailed descriptions and visuals.\
+- **React :** For building the user interface.\
+- **Redux Toolkit :** For state management.\
+- **React Draggable :** For drag-and-drop functionality.\
+- **Material-UI :** For UI components like dialogs and buttons.\
+
+
 Download my resume/CV with a single click.
 Get in touch with me through a contact form.
+
+
+## Technologies Used
+
+- **React :** For building the user interface.\
+- **Redux Toolkit :** For state management.\
+- **React Draggable :** For drag-and-drop functionality.\
+- **Material-UI :** For UI components like dialogs and buttons.\
+
+## Usage Instructions
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
